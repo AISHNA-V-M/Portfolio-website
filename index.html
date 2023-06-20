@@ -40,13 +40,24 @@
             list-style: none;
             margin: 0 23px;
         }
-        nav ul li a{
+
+        nav ul li a {
             text-decoration: none;
             color: white;
         }
-        nav ul li a:hover{
+
+        nav ul li a:hover {
             color: rgb(136, 136, 199);
-            font-size: 1.01rem;       }
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #716db2;
+            height: 1.2px;
+            margin: 40px 84px;
+
+        }
 
         .left {
             font-size: 1.5rem;
@@ -55,7 +66,8 @@
         .firstsection {
             display: flex;
             justify-content: space-around;
-            margin: 80px 0;
+            align-items: center;
+            margin: 110px 0;
 
 
         }
@@ -82,8 +94,64 @@
             color: rgb(133, 58, 202);
 
         }
-        #element{
-            color:  rgb(133, 58, 202);
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(133, 58, 202);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
         }
     </style>
 </head>
@@ -94,21 +162,21 @@
             <div class="left">Harry's Portfolio</div>
             <div class="right">
                 <ul>
-                   <li>
-                    <a href="">Home</a>
-                   </li>
-                   <li>
-                    <a href="">About</a>
-                   </li>
-                   <li>
-                    <a href="">Services</a>
-                   </li>
-                   <li>
-                    <a href="">Projects</a>
-                   </li>
-                   <li>
-                    <a href="">Contact Me</a>
-                   </li>
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                    <li>
+                        <a href="">Projects</a>
+                    </li>
+                    <li>
+                        <a href="">Contact Me</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -118,7 +186,7 @@
             <div class="leftsection">Hi,My name is <span class="purple">Harry</span>
 
                 <div>and I am a passionate</div>
-                
+
                 <span id="element"></span>
                 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
             </div>
@@ -126,13 +194,74 @@
                 <img src="images/PngItem_1127587.png" alt="">
             </div>
         </section>
+
+        <hr>
+
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img src="images/developer.png" alt="" class="image-top">
+                    <div class="vertical-title">HTML Developer (2010-2012)</div>
+
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex
+                        perspiciatis, saepe officiis a dolorem quo voluptatibus earum temporibus, placeat dolores
+                        asperiores
+                        unde harum est fugit, voluptates tempore veniam eum!</div>
+                </div>
+
+                <div class="vertical">
+                    <img src="images/instagram.png" alt="" class="image-top">
+                    <div class="vertical-title">Softwre Developer Instagram(2012-2015)</div>
+
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex
+                        perspiciatis, saepe officiis a dolorem quo voluptatibus earum temporibus, placeat dolores
+                        asperiores
+                        unde harum est fugit, voluptates tempore veniam eum!</div>
+                </div>
+
+                <div class="vertical">
+                    <img src="images/facebook.png" alt="" class="image-top">
+                    <div class="vertical-title">Software Developer facebook (2015-2017)</div>
+
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex
+                        perspiciatis, saepe officiis a dolorem quo voluptatibus earum temporibus, placeat dolores
+                        asperiores
+                        unde harum est fugit, voluptates tempore veniam eum!</div>
+                </div>
+
+                <div class="vertical">
+                    <img src="images/html.jpg" alt="" class="image-top">
+                    <div class="vertical-title">HTML Developer (2017-2018)</div>
+
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex
+                        perspiciatis, saepe officiis a dolorem quo voluptatibus earum temporibus, placeat dolores
+                        asperiores
+                        unde harum est fugit, voluptates tempore veniam eum!</div>
+                </div>
+
+                <div class="vertical">
+                    <img src="images/twitter.png" alt="" class="image-top">
+                    <div class="vertical-title">HTML Developer (2018-2022)</div>
+
+                    <div class="vertical-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ex
+                        perspiciatis, saepe officiis a dolorem quo voluptatibus earum temporibus, placeat dolores
+                        asperiores
+                        unde harum est fugit, voluptates tempore veniam eum!</div>
+                </div>
+
+
+            </div>
+        </section>
     </main>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Web Developer', 'Graphic Designer','Web Designer'],
-          typeSpeed: 50,
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer'],
+            typeSpeed: 50,
         });
-      </script>
+    </script>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </body>
 
